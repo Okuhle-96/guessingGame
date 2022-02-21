@@ -14,8 +14,8 @@ function guessRandomNumber(){
     }
     
    setTimeout(function() {
-  console.log('Hello World!');
-}, 500);
+  message.innerHTML = "";
+}, 1500);
 
 
 }guessBtn.addEventListener("click", guessRandomNumber)
