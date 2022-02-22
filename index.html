@@ -1,18 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   <section>
-       <h1>The Guessing Game</h1>
-       <input type="number" class="guess">
-       <input type="button" class="guessBtn" value="GUESS">
-   </section> 
-   <div class="message"></div>
-</body>
-<script src="script.js"></script>
-</html>
+<body {
+   
+    background-color: seagreen;
+  
+}
+
+.widget {
+    height: 458px;
+    background-image: url("./guess.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+
+.widget h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    /* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-style: oblique; */
+    font-display: skew;
+}
+
+.guess {
+    width: 5%;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: seagreen;
+    border: white;
+    margin-left: 490px;
+    margin-bottom: 30px;
+}
+
+.guessBtn {
+    padding: 10px;
+    background-color: goldenrod;
+    /* border-radius: 10px; */
+    font-family: sans-serif;
+    border: 10px solid goldenrod;
+    font-size: 20px;
+    color: white;
+    width: 165px;
+    font-weight: bolder;
+    margin-left: 470px;
+}
+
+.message {
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    font-family: sans-serif;
+    font-style: cursive;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 20px;
+}
